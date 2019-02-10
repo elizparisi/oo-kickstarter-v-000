@@ -8,8 +8,8 @@ class Project
   end
   
   def add_backers(backer)
-    backed_projects << project 
-    project.backers << self
+    backers << backer 
+    backer.projects << self
   end
 end
   
