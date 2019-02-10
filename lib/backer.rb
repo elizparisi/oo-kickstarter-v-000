@@ -12,5 +12,4 @@ class Backer
     back_project << project 
     project_backers << self
   end
-    
 end
